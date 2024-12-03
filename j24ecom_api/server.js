@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(
   cors({
     // origin: "http://localhost:5173",
-    origin: "https://ecomm-web-frontend-amber.vercel.app/products",
+    origin: "https://ecomm-web-frontend-amber.vercel.app",
     credentials: true,
     allowedHeaders: ["Content-Type", "Authorization", "auth-token"],
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
